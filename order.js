@@ -185,11 +185,11 @@ const btnSecondaryPlus = document.querySelector(".btnSecondaryPlus");
 const totalNum = document.querySelector(".totalNum");
 const sendBtn = document.querySelector(".sendBtn");
 //帶入桌號
-
 const getUrlString = location.href;
 const url = new URL(getUrlString);
 let table = url.searchParams.get("desk");
 document.querySelector(".table").innerHTML = table;
+
 let arrToRecord = [];
 function sortList(data) {
   if (arrToRecord.length === 0) {
