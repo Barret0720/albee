@@ -20,5 +20,5 @@ dataOrder.forEach((item) => {
 });
 
 function entry() {
-  window.location.href = "http://localhost:8080/order.html";
+  window.location.href = "order.html";
 }
