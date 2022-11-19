@@ -14,11 +14,11 @@ const dataOrder = document.querySelectorAll("[data-order]");
 console.log(dataOrder);
 dataOrder.forEach((item) => {
   item.addEventListener("click", (e) => {
-    console.log(e.target.nodeName);
-    entry();
+    let id = e.target.id; //新增這串
+    entry(id); // 然後帶值
   });
 });
 
-function entry() {
-  window.location.href = "order.html";
+function entry(table) {
+  window.location.href = `order.html?desk=${table}`; //網址導向的時候，帶入desk
 }
