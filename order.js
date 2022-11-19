@@ -1,73 +1,73 @@
 let dataRice = [
   {
     name: "招牌滷肉飯(大)",
-    imgUrl: "/pictures/滷肉飯-01.jpg",
+    imgUrl: "pictures/滷肉飯-01.jpg",
     price: 50,
   },
   {
     name: "招牌滷肉飯(小)",
-    imgUrl: "/pictures/滷肉飯-01.jpg",
+    imgUrl: "pictures/滷肉飯-01.jpg",
     price: 30,
   },
   {
     name: "招牌雞絲飯",
-    imgUrl: "/pictures/雞絲飯_工作區域 1.jpg",
+    imgUrl: "pictures/雞絲飯_工作區域 1.jpg",
     price: 50,
   },
   {
     name: "白飯",
-    imgUrl: "/pictures/mgg-vitchakorn-zXNC_lBBVGE-unsplash-01.jpg",
+    imgUrl: "pictures/mgg-vitchakorn-zXNC_lBBVGE-unsplash-01.jpg",
     price: 20,
   },
 ];
 let dataSideDish = [
   {
     name: "酥炸小魚乾",
-    imgUrl: "/pictures/酥炸小魚乾_工作區域 1.jpg",
+    imgUrl: "pictures/酥炸小魚乾_工作區域 1.jpg",
     price: 30,
   },
   {
     name: "涼拌海帶",
-    imgUrl: "/pictures/涼拌海帶_工作區域 1.jpg",
+    imgUrl: "pictures/涼拌海帶_工作區域 1.jpg",
     price: 30,
   },
   {
     name: "滷蛋",
-    imgUrl: "/pictures/egg_工作區域 1.jpg",
+    imgUrl: "pictures/egg_工作區域 1.jpg",
     price: 10,
   },
 ];
 let dataSoup = [
   {
     name: "剝皮辣椒雞湯",
-    imgUrl: "/pictures/soup_工作區域 1.jpg",
+    imgUrl: "pictures/soup_工作區域 1.jpg",
     price: 70,
   },
   {
     name: "香菇雞湯",
-    imgUrl: "/pictures/soup_工作區域 1.jpg",
+    imgUrl: "pictures/soup_工作區域 1.jpg",
     price: 50,
   },
   {
     name: "蒜頭雞湯",
-    imgUrl: "/pictures/soup_工作區域 1.jpg",
+    imgUrl: "pictures/soup_工作區域 1.jpg",
     price: 50,
   },
 ];
 let dataDrink = [
   {
     name: "決明子紅茶",
-    imgUrl: "/pictures/麥茶_工作區域 1.jpg",
+    imgUrl: "pictures/麥茶_工作區域 1.jpg",
     price: 30,
   },
   {
     name: "決明子麥茶",
-    imgUrl: "/pictures/麥茶_工作區域 1.jpg",
+    imgUrl: "pictures/麥茶_工作區域 1.jpg",
     price: 30,
   },
   {
     name: "可口可樂",
-    imgUrl: "/pictures/cola_工作區域 1.jpg",
+    imgUrl: "pictures/cola_工作區域 1.jpg",
     price: 30,
   },
 ];
@@ -246,5 +246,5 @@ sendBtn.addEventListener("click", function (e) {
   entry();
 });
 function entry() {
-  window.location.href = "http://localhost:8080/table.html";
+  window.location.href = "table.html";
 }
