@@ -26,5 +26,5 @@ login.addEventListener("click", function (e) {
 });
 
 function entry() {
-  window.location.href = "table.html";
+  location.href = "table.html";
 }
